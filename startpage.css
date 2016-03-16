@@ -70,8 +70,8 @@ ul li a {
 .more {
   display: inline;
   text-decoration: none;
-  color: #222222;
-  background-color: #f9ba7f;
+  color: #f9ba7f;
+  background-color: #222222;
   padding-left: 7px;
   padding-right: 7px;
 }
