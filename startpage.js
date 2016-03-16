@@ -1,13 +1,13 @@
+var moremenu = function(menu, button){
+  $(menu).hide();
+  $(button).click(function(){
+  $(menu).toggle("fast", function(){
+  });
+})
+}
 var main = function() {
-  var moremenu = function(menu, button){
-    $(menu).hide();
-    $(button).click(function(){
-    $(menu).toggle("fast", function(){
-    });
-  })
-  }
   moremenu('#redditmore', '#redditbtn')
-  moremenu('#moremore', '#morebtn')
+  moremenu('#moremore', '.morebtn')
   $("#input").closest('form').find("input[type=text], textarea").val("");
 };
 
