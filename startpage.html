@@ -13,10 +13,10 @@
     .links {text-align: center; margin-top: 200px;}
     i {color: #ffffff; margin-left: 20px; margin-right: 20px;}
     i:not(:hover) {opacity: .5; transition: opacity .5s;}
-    .hover:hover .more {display: block; opacity: 1;}
-    .more:hover {display: block; opacity: 1;}
+    .hover:hover .more {visibility: visible; opacity: 0.8; transition: opacity .5s;}
+    .more:hover {visibility: visible;}
     .hover {display: inline; position: relative;}
-    .more {margin: 0px; background-color: #FFF; transition: opacity linear .15s; opacity: 0; position: absolute; left: -10%; top: 150%; display: none; padding-top: 5px; padding-bottom: 5px; padding-left: 20px; padding-right: 20px;}
+    .more {margin: 0px; background-color: #FFF; position: absolute; left: -10%; top: 150%; visibility: hidden; opacity: 0; transition: opacity .5s; padding-top: 5px; padding-bottom: 5px; padding-left: 20px; padding-right: 20px;}
     /* Positioning is absolutely shit here */
     .more li {list-style-type: none; padding-top: 5px; padding-bottom: 5px;}
     .more li a {color: #000000; text-decoration: none; font-family: "Source Sans Pro"; font-size: 20px;}
@@ -27,12 +27,12 @@
     </form>
   </div>
   <div class="links">
-    <a href="http://www.reddit.com"><i class="fa fa-reddit-alien fa-5x icon"></i></a>
-    <a href="http://www.youtube.com/feed/subscriptions"><i class="fa fa-youtube-play fa-5x icon"></i></a>
-    <a href="http://www.github.com"><i class="fa fa-github fa-5x icon"></i></a>
-    <a href="http://mail.google.com"><i class="fa fa-envelope fa-5x icon"></i></a>
-    <a href="http://www.facebook.com"><i class="fa fa-facebook-square fa-5x icon"></i></a>
-    <a href="http://drive.google.com"><div class="hover"><i class="fa fa-book fa-5x icon"></i>
+    <a href="http://www.reddit.com"><i class="fa fa-reddit-alien fa-5x"></i></a>
+    <a href="http://www.youtube.com/feed/subscriptions"><i class="fa fa-youtube-play fa-5x"></i></a>
+    <a href="http://www.github.com"><i class="fa fa-github fa-5x"></i></a>
+    <a href="http://mail.google.com"><i class="fa fa-envelope fa-5x"></i></a>
+    <a href="http://www.facebook.com"><i class="fa fa-facebook-square fa-5x"></i></a>
+    <a href="http://drive.google.com"><div class="hover"><i class="fa fa-book fa-5x"></i>
       <ul class="more">
         <li><a href="https://classroom.google.com/u/1/h">Classroom</a></li>
         <li><a href="https://malmoborgarskola.managebac.com/login">Managebac</a></li>
