@@ -3,8 +3,6 @@
 ###Downloads
 (Only for Offline use)
 
-[jQuery](https://jquery.com/download/)
-
 [FontAwesome](http://fontawesome.io/)
 
 [Background](http://i.imgur.com/cRWq6fu.jpg)
