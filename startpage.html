@@ -2,20 +2,19 @@
 <html>
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 </head>
 <body>
   <style>
     html {padding: 0px; margin: 0px; text-decoration: none;}
-    body {background-image: url(http://i.imgur.com/cRWq6fu.jpg); background-size: cover;}
+    body {background-image: url(http://i.imgur.com/cRWq6fu.jpg); background-size: cover; background-color: #222222;}
     .search {text-align: center; margin-top: 130px;}
     #input {background-color: #EEE; padding-left: 5px; border: none; opacity: 0.8; width: 500px; height: 35px;}
     .links {text-align: center; margin-top: 200px;}
     i {color: #ffffff; margin-left: 20px; margin-right: 20px;}
     i:not(:hover) {opacity: .5; transition: opacity .5s;}
-    .hover:hover .more {visibility: visible; opacity: 0.8; transition: opacity .5s;}
+    .btn:hover .more {visibility: visible; opacity: 0.8; transition: opacity .5s;}
     .more:hover {visibility: visible;}
-    .hover {display: inline; position: relative;}
+    .btn {display: inline; position: relative;}
     .more {margin: 0px; background-color: #FFF; position: absolute; left: -10%; top: 150%; visibility: hidden; opacity: 0; transition: opacity .5s; padding-top: 5px; padding-bottom: 5px; padding-left: 20px; padding-right: 20px;}
     /* Positioning is absolutely shit here */
     .more li {list-style-type: none; padding-top: 5px; padding-bottom: 5px;}
@@ -32,7 +31,7 @@
     <a href="http://www.github.com"><i class="fa fa-github fa-5x"></i></a>
     <a href="http://mail.google.com"><i class="fa fa-envelope fa-5x"></i></a>
     <a href="http://www.facebook.com"><i class="fa fa-facebook-square fa-5x"></i></a>
-    <a href="http://drive.google.com"><div class="hover"><i class="fa fa-book fa-5x"></i>
+    <a href="http://drive.google.com"><div class="btn"><i class="fa fa-book fa-5x"></i>
       <ul class="more">
         <li><a href="https://classroom.google.com/u/1/h">Classroom</a></li>
         <li><a href="https://malmoborgarskola.managebac.com/login">Managebac</a></li>
