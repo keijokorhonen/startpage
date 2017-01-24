@@ -9,7 +9,7 @@ function updateClock() {
       dayName = dayNames[today.getDay() - 1];
       monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
       month = monthNames[today.getMonth()];
-      time = today.getHours() + ":" + ('0' + today.getMinutes()).slice(-2) + ":" + ('0' + today.getSeconds()).slice(-2);
+      time = today.getHours() + ":" + ('0' + today.getMinutes()).slice(-2);
   if (today.getHours() >= 6 && today.getHours() < 11) {
       greeting = "Good Morning";
     }
@@ -27,6 +27,6 @@ function updateClock() {
     };
   document.getElementById('messageGreet').innerHTML = greeting;
   document.getElementById('messageDay').innerHTML = "It is " + dayName;
-  document.getElementById('dateandtime').innerHTML = day + " " + month + " " + time;
-  var t = setInterval(updateClock, 1000);
+  document.getElementById('dateandtime').innerHTML = "<span class='pink'>" + day + " " + month + "</span> "+ time;
+  var t = setInterval(updateClock, 10000);
 };
