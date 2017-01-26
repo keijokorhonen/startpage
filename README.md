@@ -5,9 +5,11 @@
 
 [FontAwesome](http://fontawesome.io/)
 
-[Background](http://i.imgur.com/cRWq6fu.jpg) ([Original Artist](http://valeonnn.deviantart.com/art/8-C4D-Sunheat-549694334))
-
 ###Description
-Personal Startpage designed with Firefox in mind. I've put some buttons with animations which lead into different dimensions. Shitty HTML and CSS will hopefully be updated.  
+Personal Startpage designed with Firefox in mind. It contains a greeting that changes depending on what time of the day it is, a search bar and links to my commonly used websites. 
 
-![](http://i.imgur.com/3iPJz9i.png)
+![](http://imgur.com/fpuqqcs)
+
+###Todo
+* Make dropdown categories instead of direct links
+* Fix the positioning of the dropdown
