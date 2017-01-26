@@ -25,8 +25,12 @@ function updateClock() {
   else {
       greeting = "Why are you awake?"
     };
-  document.getElementById('messageGreet').innerHTML = greeting;
+  document.getElementById('messageGreet').innerHTML = greeting + ",";
   document.getElementById('messageDay').innerHTML = "It is " + dayName;
   document.getElementById('dateandtime').innerHTML = "<span class='pink'>" + day + " " + month + "</span> "+ time;
   var t = setInterval(updateClock, 10000);
+};
+
+function searchBar() {
+  
 };
