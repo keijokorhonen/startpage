@@ -1,12 +1,13 @@
 var main = function () {
   updateClock();
+
 };
 
 function updateClock() {
   var today = new Date();
       day = today.getDate();
-      dayNames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
-      dayName = dayNames[today.getDay() - 1];
+      dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+      dayName = dayNames[today.getDay()];
       monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
       month = monthNames[today.getMonth()];
       time = today.getHours() + ":" + ('0' + today.getMinutes()).slice(-2);
