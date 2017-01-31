@@ -31,7 +31,3 @@ function updateClock() {
   document.getElementById('dateandtime').innerHTML = "<span class='pink'>" + day + " " + month + "</span> "+ time;
   var t = setInterval(updateClock, 10000);
 };
-
-function searchBar() {
-  
-};
