@@ -13,3 +13,5 @@ Personal Startpage designed with Firefox in mind. It contains a greeting that ch
 ###Todo
 * Make dropdown categories instead of direct links
 * Fix the positioning of the dropdown
+* Mobile Version
+* Keyboard shortcuts to websites
