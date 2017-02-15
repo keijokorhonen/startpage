@@ -1,0 +1,154 @@
+html {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  text-align: center;
+}
+
+body {
+  background-color: #081828;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#message {
+  color: #ffffff;
+  font-family: "Product Sans", sans-serif;
+  font-size: 3em;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+#date {
+  color: #ffffff;
+  font-family: "Product Sans", sans-serif;
+  font-size: 2em;
+  display: block;
+  margin-top: 10px;
+}
+
+.search {
+  position: relative;
+  margin-top: 50px;
+}
+
+#input {
+  background-color: #ffffff;
+  color: #081828;
+  font-family: "Product Sans", sans-serif;
+  font-size: 1.3em;
+  text-align: center;
+  padding-left: 5px;
+  border: none;
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+  transition: all .5s ease;
+}
+
+#input:focus {
+  box-shadow: 7px 7px 3px #000000;
+  width: 600px;
+  height: 52px;
+  transition: all .5s ease;
+}
+
+.links {
+  margin-top: 100px;
+  justify-content: center;
+}
+
+i {
+  color: #ffffff;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.btn:hover .more {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity .5s;
+  z-index: 1;
+}
+
+.more:hover {
+  visibility: visible;
+}
+
+.btn {
+  display: inline;
+  position: relative;
+}
+
+.more {
+  background-color: #ffffff;
+  border-radius: 5px;
+  position: absolute;
+  left: 5%;
+  top: 45px;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  width: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: all .5s ease;
+ }
+
+.more li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.more li a {
+  color: #808080;
+  text-decoration: none;
+  font-family: "Product Sans", sans-serif;
+  font-size: 1.1em;
+}
+
+.more li a:hover {
+  color: #081828;
+}
+
+.material-icons {
+  background: #ffffff;
+  font-size: 36px;
+  padding: 25px;
+  margin-top: -25px;
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  margin-bottom:1 0px;
+}
+
+.pink {
+  color: #ff0e5e;
+}
+
+.black {
+  color: #000000;
+}
+
+.green {
+  color: #31e504;
+}
+
+.red {
+  color: #f91713;
+}
+
+.blue {
+  color: #1359ef;
+}
